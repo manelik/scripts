@@ -9,7 +9,8 @@ minut=`date +%M`
 
 if [ $hora -lt 6 ] ; then
     hora=$((hora+24))
-    dia= $((dia-1))
+    dia=$((dia-1))
 fi
+
 
 echo $fech$dia $hora':'$minut
